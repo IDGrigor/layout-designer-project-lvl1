@@ -1,6 +1,53 @@
 /** CSS STYLE **/
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
-	font-family: Arial sans-serif;
+	font-family: sans-serif;
+	font-weight: bold;
 	font-size: 16px;
 	color: #303846;
+	background-color: grey;
+}
+.container{
+	width: 98%;
+	margin: 0 auto;
+}
+.logo-img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	padding-right: 10px; 
+}
+header{
+	display: flex;
+	background-color: white;
+	height: 50px;
+}
+nav{
+	display: flex;
+	width: 85%;
+	justify-content: flex-end;
+}
+header nav ul{
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #303846;
+	padding: 10px; 
+}
+.logo-items{
+	display: flex;
+	width: 15%;
+	align-items: center;
+}
+.logo-name{
+	line-height: 50px;
+}
+.p-10{
+	padding: 10px;
 }
