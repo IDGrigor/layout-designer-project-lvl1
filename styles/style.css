@@ -5,10 +5,8 @@
 }
 body{
 	font-family: Roboto;
-	font-weight: bold;
 	font-size: 16px;
 	color: #303846;
-	background-color: grey;
 }
 .logo-img{
 	width: 30px;
@@ -17,6 +15,7 @@ body{
 	padding-right: 10px; 
 }
 header{
+	font-weight: bold;
 	display: flex;
 	background-color: white;
 	height: 50px;
@@ -91,9 +90,6 @@ header nav ul li a{
 	display: flex;
 	align-content: center;
 }
-main{
-	height: 600px;
-}
 .h-33{
 	height: 33.33%;
 }
@@ -130,6 +126,7 @@ main{
 }
 .w-400{
 	width: 400px;
+	margin: 0 auto;
 }
 .fieldset-container{
 	display: flex;
