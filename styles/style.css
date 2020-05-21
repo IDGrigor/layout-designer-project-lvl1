@@ -169,9 +169,16 @@ legend{
 	color: #30d5c8;
 	font-size: 1.5em;
 }
-
 fieldset{
 	border-color: #30d5c8;
+}
+input,select{
+	height: 50%;
+	position: relative;
+	top: 25%;
+}
+.w-150{
+	width: 150px;
 }
 .border-radius-6{
 	border-radius: 6px;
