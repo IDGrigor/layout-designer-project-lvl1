@@ -10,15 +10,13 @@ body{
 }
 .logo-img{
 	width: 30px;
-	height: 30px;
 	vertical-align: middle;
 	padding-right: 10px; 
 }
-header{
+.nav{
 	font-weight: bold;
 	display: flex;
 	background-color: white;
-	height: 50px;
 	position: fixed;
 	width: 100%;
 }
@@ -55,7 +53,6 @@ header nav ul li a{
 	padding: 50px;
 }
 .top-section{
-	padding-top: 50px;
 	background-image: url(../images/banner.png);
 	background-repeat: no-repeat;
 	background-position: 0 60%;
@@ -63,9 +60,11 @@ header nav ul li a{
 	align-items: center;
 	flex-direction: column;
 }
+main{
+	padding-top: 70px;
+}
 .top-section-logo-img{
 	width: 100px;
-	height: 100px;
 }
 .p-30{
 	padding: 30px;
@@ -142,22 +141,14 @@ header nav ul li a{
 }
 .fieldset-container{
 	display: flex;
-	width: 100%;
 	width: inherit;
 	flex-direction: column;
 }
 .fieldset-container div{
 	display: flex;
-	vertical-align: middle;
 }
 .form-items{
 	width: 50%;
-}
-.input-w-40{
-	width: 40%;
-}
-.input-w-30{
-	width: 30%;
 }
 .margin-bottom-10{
 	margin: 0 0 10px;

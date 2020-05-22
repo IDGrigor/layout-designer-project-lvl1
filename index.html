@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-		<header>
+		<header class="nav">
 			<div class="logo-items p-10">
 				<div><img src="images/logo.svg" class="logo-img" alt="logo"></div>
 				<span class="logo-name">Лунное море</span>
@@ -22,19 +22,19 @@
         		</ul>
 			</nav>
 		</header>
-		<section class="top-section">
-			<div class="top-section-logo-item p-20">
-				<img src="images/logo.svg" class="top-section-logo-img p-20" alt="logo">
-			</div>
-			<div class="top-section-text">
-				<h1>ЖК «Лунное море»</h1>
-				<h5>Место, откуда не хочется улетать</h5>
-			</div>
-			<div class="top-section-button p-30">
-				<input type="button" name="top-section-button" class="border-radius-6 transparent" value="Забронировать" onclick="window.location.href='#order'">
-			</div>
-		</section>
 		<main>
+			<section class="top-section">
+				<div class="p-20">
+					<img src="images/logo.svg" class="top-section-logo-img p-20" alt="logo">
+				</div>
+				<div class="top-section-text">
+					<h1>ЖК «Лунное море»</h1>
+					<h5>Место, откуда не хочется улетать</h5>
+				</div>
+				<div class="top-section-button p-30">
+					<input type="button" name="top-section-button" class="border-radius-6 transparent" value="Забронировать" onclick="window.location.href='#order'">
+				</div>
+			</section>
 				<section class="advantages h-33 p-20">
 					<div class="main-container w-1000 p-30">
 						<div class="p-10 w-33">
@@ -79,33 +79,35 @@
 				<div class="order-header p-30">
 					<h1>Оставьте заявку сегодня!</h1>
 				</div>
-				<div class="flat-params-form margin-bottom-10">
-					<fieldset class="p-20">
-						<legend>Параметры квартиры</legend>
-						<div class="fieldset-container">
-							<div class="rooms-form">
-								<p class="form-items p-20">Количество комнат:</p>
-								<div>
-									<select class="rooms margin-bottom-10 border-radius-6 w-150" name="rooms">
-									  <option value="1">1</option>
-									  <option value="2">2</option>
-									  <option value="3">3</option>
-									  <option value="4">4</option>
-									</select>	
+				<form>
+					<div class="flat-params-form margin-bottom-10">
+						<fieldset class="p-20">
+							<legend>Параметры квартиры</legend>
+							<div class="fieldset-container">
+								<div class="rooms-form">
+									<p class="form-items p-20">Количество комнат:</p>
+									<div>
+										<select class="rooms margin-bottom-10 border-radius-6 w-150" name="rooms">
+										  <option value="1">1</option>
+										  <option value="2">2</option>
+										  <option value="3">3</option>
+										  <option value="4">4</option>
+										</select>	
+									</div>
+								</div>
+								<div class="refinement-form">
+									<p class="form-items p-20">Отделка:</p>
+									<div>
+										<select class="refinement margin-bottom-10 border-radius-6 w-150" name="refinement">
+										  <option value="false">Без отделки</option>
+										  <option value="true">С отделкой</option>
+										</select>
+									</div>
 								</div>
 							</div>
-							<div class="refinement-form">
-								<p class="form-items p-20">Отделка:</p>
-								<div>
-									<select class="refinement margin-bottom-10 border-radius-6 w-150" name="refinement">
-									  <option value="false">Без отделки</option>
-									  <option value="true">С отделкой</option>
-									</select>
-								</div>
-							</div>
-						</div>
-					</fieldset>
-				</div>
+						</fieldset>
+					</div>
+				</form>
 				<div class="contacts-form margin-bottom-10">
 					<fieldset class="p-20">
 						<legend>Контактная информация</legend>
