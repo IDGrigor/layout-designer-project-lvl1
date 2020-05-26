@@ -22,11 +22,11 @@ body{
 	background-color: white;
 	position: fixed;
 	justify-content: space-between;
+	width: 100%;
 	height: var(--header-height);
 }
 .menu{
 	display: flex;
-	width: 75%;
 	justify-content: flex-end;
 }
 .header .menu ul{
@@ -41,7 +41,6 @@ body{
 }
 .logo-items{
 	display: flex;
-	width: 25%;
 	align-items: center;
 }
 .logo-name{
