@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+	<div class="container"> 
 		<header class="header bgc-white">
 			<div class="logo-items p-10">
 				<div><img src="images/logo.svg" class="logo-img" alt="logo"></div>
@@ -23,18 +24,15 @@
 			</nav>
 		</header>
 		<main>
-			<section class="top-section">
-				<div class="top-section-container w-1000 p-10">
-					<div class="p-20">
-						<img src="images/logo.svg" class="top-section-logo-img p-20" alt="logo">
+				<section class="top-section p-20">
+					<div>
+						<img src="images/logo.svg" class="top-section-logo-img p-bottom-20" alt="logo">
 					</div>
 						<h1>ЖК «Лунное море»</h1>
 						<h2>Место, откуда не хочется улетать</h2>
 						<a href="#order" class="btn padding-top-10 btn-color-white">Забронировать</a>
-				</div>
-			</section>
+				</section>
 				<section class="advantages bgc-white p-20">
-					<div class="main-container w-1000 p-30">
 						<div class="p-10 w-33">
 							<h2 class="p-bottom-20">Уникальный вид</h2>
 							<p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -47,10 +45,8 @@
 							<h2 class="p-bottom-20">Близость к Москве</h2>
 							<p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
 						</div>
-					</div>
 				</section>
-				<section class="about bgc-grey">
-					<div class="main-container w-1000 p-40">
+				<section class="about bgc-grey p-40">
 						<div class="p-10 w-60">
 							<h2 class="p-bottom-20">О ЖК «Лунное море»</h2>
 							<p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.<br>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
@@ -58,10 +54,8 @@
 						<div class="p-20 w-40">
 							<img src="images/moon-1.jpg" class="main-section-img-moon1" alt="moon-image">
 						</div>
-					</div>
 				</section>
-				<section class="rest-places">
-					<div class="main-container w-1000 p-50">
+				<section class="rest-places p-50">
 						<div class="p-10 w-40">
 							<img src="images/moon-2.jpg" class="main-section-img-moon2" alt="moon-image">
 						</div>
@@ -69,19 +63,16 @@
 							<h2 class="p-bottom-20">Места для отдыха</h2>
 							<p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.<br>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
 						</div>
-					</div>
 				</section>
 		</main>
 		<section class="order bgc-grey" id="order">
-			<div class="section-container w-600 p-50">
 				<div class="order-header p-30">
 					<h1>Оставьте заявку сегодня!</h1>
 				</div>
-				<form>
-					<div class="flat-params-form margin-bottom-10 w-600">
+				<form class="w-600">
+					<div class="flat-params-form margin-bottom-10">
 						<fieldset class="p-20">
 							<legend>Параметры квартиры</legend>
-							<div class="fieldset-container p-20">
 								<div class="rooms-form">
 									<p class="form-items p-20">Количество комнат:</p>
 									<div>
@@ -102,13 +93,11 @@
 										</select>
 									</div>
 								</div>
-							</div>
 						</fieldset>
 					</div>
 				<div class="contacts-form margin-bottom-10">
 					<fieldset class="p-20">
 						<legend>Контактная информация</legend>
-						<div class="fieldset-container">
 							<div>
 								<p class="form-items p-20">Имя:</p>
 								<div>
@@ -127,16 +116,13 @@
 									<input type="text" name="email" class="margin-bottom-10 border-radius-6">
 								</div>
 							</div>
-						</div>
 					</fieldset>
 				</div>
 				<div>
 					<input type="button" name="send-button" value="Отправить" class="btn btn-color-turquoise">
 				</div>
 			</form>
-		</section>
 		<footer class="text-color-white bgc-dark p-40">
-			<div class="footer-container w-1200">
 				<div class="footer-logo">
 					<div class="footer-logo-items">
 						<img src="images/logo.svg" class="logo-img" alt="logo">
@@ -168,7 +154,7 @@
 						</ul>
 					</div>
 				</div>
-			</div>
 		</footer>
+	</div>
 </body>
 </html>
