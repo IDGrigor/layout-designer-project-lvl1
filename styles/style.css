@@ -6,6 +6,7 @@
 .container{
 	width: 1000px;
 	margin: 0 auto;
+	padding: 20px;
 }
 :root{
 	--header-height: 70px;
@@ -69,15 +70,9 @@ body{
 	background-image: url(../images/banner.png);
 	background-repeat: no-repeat;
 	background-position: 0 60%;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
 }
 main{
 	padding-top: var(--header-height);
-}
-main section .container{
-	
 }
 .top-section-logo-img{
 	width: 100px;
@@ -126,6 +121,7 @@ main section .container{
 }
 .flex-dir-col{
 	flex-direction: column;
+	align-items: center;
 }
 .bgc-grey{
 	background-color: #f7f7f7;
@@ -193,7 +189,7 @@ input,select{
 	box-sizing: border-box;
 }
 .m-30{
-	margin: 30px;
+	margin: 30px 30px 30px 0;
 }
 .padding-top-10{
 	padding-top: 10px;
